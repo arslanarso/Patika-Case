@@ -71,10 +71,10 @@ def report_all():
         
 if __name__ == "__main__":
         
-    m1 = Minibus(fname="Hüsam",lname="muhammet",hgs_number=333333,balance=200)
-    m2 = Minibus(fname="Mert",lname="ali",hgs_number=222222,balance=100)
+    m1 = Minibus(fname="Arslan",lname="Tek",hgs_number=333333,balance=200)
+    m2 = Minibus(fname="Arslan",lname="Arso",hgs_number=222222,balance=100)
     o1 = Otomobile(fname="veli",lname="melih",hgs_number=4444444,balance=100)
-    o2 = Otomobile(fname="Arslan",lname="Arso",hgs_number=5555555,balance=3)
+    o2 = Otomobile(fname="Samet",lname="Arslan",hgs_number=5555555,balance=3)
     mb1 = Otobus(fname="doğancan",lname="güneş",hgs_number=6666666,balance=30000)
     mb2 = Otobus(fname="Nazan",lname="Belma",hgs_number=7777777,balance=300)
 
